@@ -1,5 +1,4 @@
 package cinema;
-import java.net.SocketOption;
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -13,9 +12,6 @@ public class Cinema {
     static int totalIncome = 0;
 
     public static void main(String[] args) {
-        System.out.println("Hello Git");
-        System.out.println("Hello Java");
-        System.out.println("Hello World");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of rows: ");
         rows = scanner.nextInt();
