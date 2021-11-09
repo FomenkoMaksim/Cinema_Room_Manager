@@ -12,6 +12,7 @@ public class Cinema {
     static int totalIncome = 0;
 
     public static void main(String[] args) {
+        System.out.println("Hello world");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of rows: ");
         rows = scanner.nextInt();
